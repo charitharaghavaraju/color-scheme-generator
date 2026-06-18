@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Happy+Monkey&family=Lavishly+Yours&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smythe&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="controls">
+            <input type="color" id="color-picker" value="#F55A5A">
+
+            <select id="mode">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="analogic">Analogic-complement</option>
+                <option value="complement">Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+
+            <button id="get-scheme">Get Color Scheme</button>
+        </div>
+
+        <div id="palette"></div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

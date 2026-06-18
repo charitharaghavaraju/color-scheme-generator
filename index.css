@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Commissioner", sans-serif;
+}
+
+div.controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#color-picker {
+    width: 61px;
+    height: 42px;
+    border: 0.5px solid #D1D5DB;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mode, #get-scheme {
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: white;
+}
+
+#mode {
+    width: 312px;
+    padding: 0 13px;
+}
+
+#get-scheme {
+    padding: 0 14px;
+    cursor: pointer;
+}
+
+#get-scheme:hover {
+    background: #f3f4f6;
+}
+
+#palette {
+    display: flex;
+    height: 500px;
+}
+
+.color-column {
+    flex: 1;
+}
+
+.color-block {
+    height: 450px;
+}
+
+.color-column p {
+    text-align: center;
+    font-size: 1.2rem;
+}
